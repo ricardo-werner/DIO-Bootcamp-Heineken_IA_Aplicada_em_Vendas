@@ -1,0 +1,190 @@
+[
+  {
+    "id": "refrigerante-de-limao-siciliano-zero",
+    "nome": "Refrigerante de Limão Siciliano Zero",
+    "categoria": "Refrigerante",
+    "sabor": "Limão Siciliano",
+    "versao": "Zero",
+    "beneficios": [
+      "Zero açúcar e calorias."
+    ],
+    "indicacoes_comerciais": [
+      "Mercados",
+      "Padarias",
+      "Conveniências",
+      "Bares",
+      "Restaurantes",
+      "Lojas com público saudável"
+    ],
+    "ocasioes_consumo": [
+      "Almoço",
+      "Lanches",
+      "Dias quentes",
+      "Refeições rápidas",
+      "Encontros informais"
+    ],
+    "url": "https://www.fys.com.br/produtos/refrigerante-de-limao-siciliano-zero/",
+    "imagem": "https://www.fys.com.br/media/spamkmoc/fys-limao-siciliano-zero-2.webp"
+  },
+  {
+    "id": "refrigerante-de-guarana-da-amazonia-zero",
+    "nome": "Refrigerante de Guaraná da Amazônia Zero",
+    "categoria": "Refrigerante",
+    "sabor": "Guaraná da Amazônia",
+    "versao": "Zero",
+    "beneficios": [
+      "Zero açúcar e calorias."
+    ],
+    "indicacoes_comerciais": [
+      "Mercados",
+      "Padarias",
+      "Conveniências",
+      "Bares",
+      "Restaurantes",
+      "Lojas com público saudável"
+    ],
+    "ocasioes_consumo": [
+      "Lanches",
+      "Almoço",
+      "Refeições rápidas",
+      "Eventos familiares",
+      "Dias quentes"
+    ],
+    "url": "https://www.fys.com.br/produtos/refrigerante-de-guarana-da-amazonia-zero/",
+    "imagem": "https://www.fys.com.br/media/t1mbwg31/fys-guaran%C3%A1-da-amazonia-zero-fys.webp"
+  },
+  {
+    "id": "refrigerante-de-laranja-pera",
+    "nome": "Refrigerante de Laranja-Pera",
+    "categoria": "Refrigerante",
+    "sabor": "Laranja-Pera",
+    "versao": "Tradicional",
+    "beneficios": [
+      "Todo o sabor com 50% menos açúcar*.",
+      "Comparado à média de mercado"
+    ],
+    "indicacoes_comerciais": [
+      "Mercados",
+      "Padarias",
+      "Conveniências",
+      "Bares",
+      "Restaurantes"
+    ],
+    "ocasioes_consumo": [
+      "Café da manhã",
+      "Lanches",
+      "Almoço",
+      "Dias quentes",
+      "Consumo diário"
+    ],
+    "url": "https://www.fys.com.br/produtos/refrigerante-de-laranja-pera/",
+    "imagem": "https://www.fys.com.br/media/vj0bolwd/fys-produtos_hero-sombra-600x600-laranja.webp"
+  },
+  {
+    "id": "refrigerante-de-limao-siciliano",
+    "nome": "Refrigerante de Limão Siciliano",
+    "categoria": "Refrigerante",
+    "sabor": "Limão Siciliano",
+    "versao": "Tradicional",
+    "beneficios": [
+      "Todo o sabor com 50% menos açúcar*.",
+      "Comparado à média de mercado"
+    ],
+    "indicacoes_comerciais": [
+      "Mercados",
+      "Padarias",
+      "Conveniências",
+      "Bares",
+      "Restaurantes"
+    ],
+    "ocasioes_consumo": [
+      "Almoço",
+      "Lanches",
+      "Dias quentes",
+      "Refeições rápidas",
+      "Encontros informais"
+    ],
+    "url": "https://www.fys.com.br/produtos/refrigerante-de-limao-siciliano/",
+    "imagem": "https://www.fys.com.br/media/ibdatxei/fys-produtos_hero-sombra-600x600-limao.webp"
+  },
+  {
+    "id": "refrigerante-de-guarana-da-amazonia",
+    "nome": "Refrigerante de Guaraná da Amazônia",
+    "categoria": "Refrigerante",
+    "sabor": "Guaraná da Amazônia",
+    "versao": "Tradicional",
+    "beneficios": [
+      "Todo o sabor com 50% menos açúcar*.",
+      "Comparado à média de mercado"
+    ],
+    "indicacoes_comerciais": [
+      "Mercados",
+      "Padarias",
+      "Conveniências",
+      "Bares",
+      "Restaurantes"
+    ],
+    "ocasioes_consumo": [
+      "Lanches",
+      "Almoço",
+      "Refeições rápidas",
+      "Eventos familiares",
+      "Dias quentes"
+    ],
+    "url": "https://www.fys.com.br/produtos/refrigerante-de-guarana-da-amazonia/",
+    "imagem": "https://www.fys.com.br/media/tjznv02o/fys-produtos_hero-sombra-600x600-guarana.webp"
+  },
+  {
+    "id": "tonica-com-toque-de-limao-siciliano-zero",
+    "nome": "Tônica com toque de Limão Siciliano Zero",
+    "categoria": "Tônica",
+    "sabor": "Limão Siciliano",
+    "versao": "Zero",
+    "beneficios": [
+      "Zero açúcar e calorias."
+    ],
+    "indicacoes_comerciais": [
+      "Bares",
+      "Restaurantes",
+      "Conveniências",
+      "Mercados",
+      "Padarias"
+    ],
+    "ocasioes_consumo": [
+      "Almoço",
+      "Lanches",
+      "Dias quentes",
+      "Refeições rápidas",
+      "Encontros informais"
+    ],
+    "url": "https://www.fys.com.br/produtos/tonica-com-toque-de-limao-siciliano-zero/",
+    "imagem": "https://www.fys.com.br/media/favntan4/fys-produtos_hero-sombra-600x600-tonica-zero.webp"
+  },
+  {
+    "id": "tonica-com-toque-de-limao-siciliano",
+    "nome": "Tônica com toque de Limão Siciliano",
+    "categoria": "Tônica",
+    "sabor": "Limão Siciliano",
+    "versao": "Tradicional",
+    "beneficios": [
+      "Todo o sabor com 45% menos açúcar*.",
+      "Comparado à média de mercado"
+    ],
+    "indicacoes_comerciais": [
+      "Bares",
+      "Restaurantes",
+      "Conveniências",
+      "Mercados",
+      "Padarias"
+    ],
+    "ocasioes_consumo": [
+      "Almoço",
+      "Lanches",
+      "Dias quentes",
+      "Refeições rápidas",
+      "Encontros informais"
+    ],
+    "url": "https://www.fys.com.br/produtos/tonica-com-toque-de-limao-siciliano/",
+    "imagem": "https://www.fys.com.br/media/cepmgkrt/fys-produtos_hero-sombra-600x600-tonica.webp"
+  }
+]
