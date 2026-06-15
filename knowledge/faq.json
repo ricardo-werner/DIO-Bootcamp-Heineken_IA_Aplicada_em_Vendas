@@ -1,0 +1,84 @@
+{
+"projeto": "ComFYS",
+"versao": "1.0",
+"tipo_conhecimento": "faq",
+"fonte": "cenario_mvp",
+"observacao": "Conteúdo utilizado exclusivamente para demonstração e prototipação do assistente comercial.",
+"faq": [
+{
+"id": "FAQ-001",
+"pergunta": "Existe programa de fidelidade?",
+"resposta": "Sim. Clientes participantes podem acumular benefícios conforme campanhas vigentes."
+},
+{
+"id": "FAQ-002",
+"pergunta": "Como faço um pedido?",
+"resposta": "Os pedidos podem ser realizados por representante comercial ou pelos canais digitais disponíveis."
+},
+{
+"id": "FAQ-003",
+"pergunta": "Qual o prazo de entrega?",
+"resposta": "O prazo pode variar conforme região, volume e disponibilidade de estoque."
+},
+{
+"id": "FAQ-004",
+"pergunta": "Recebi produtos avariados. O que fazer?",
+"resposta": "Entre em contato com o atendimento comercial para avaliação e orientação."
+},
+{
+"id": "FAQ-005",
+"pergunta": "Posso solicitar troca de produtos?",
+"resposta": "Trocas podem ser analisadas conforme condições comerciais e políticas vigentes."
+},
+{
+"id": "FAQ-006",
+"pergunta": "Como armazenar os produtos corretamente?",
+"resposta": "Mantenha os produtos em local limpo, ventilado e protegido da exposição direta ao sol."
+},
+{
+"id": "FAQ-007",
+"pergunta": "Qual a temperatura ideal para consumo?",
+"resposta": "A recomendação varia por produto, mas bebidas geladas geralmente proporcionam melhor experiência."
+},
+{
+"id": "FAQ-008",
+"pergunta": "Posso montar mix personalizado de sabores?",
+"resposta": "Dependendo da disponibilidade e das condições comerciais, é possível avaliar composições de mix."
+},
+{
+"id": "FAQ-009",
+"pergunta": "Qual é a validade dos produtos?",
+"resposta": "A validade está indicada na embalagem e pode variar conforme o item."
+},
+{
+"id": "FAQ-010",
+"pergunta": "Existem campanhas promocionais?",
+"resposta": "Sim. Campanhas podem ocorrer em períodos sazonais ou eventos específicos."
+},
+{
+"id": "FAQ-011",
+"pergunta": "Quais formas de pagamento são aceitas?",
+"resposta": "As condições podem variar conforme região, perfil do cliente e campanha vigente."
+},
+{
+"id": "FAQ-012",
+"pergunta": "Como funciona o comodato?",
+"resposta": "Equipamentos podem ser disponibilizados mediante análise e critérios comerciais."
+},
+{
+"id": "FAQ-013",
+"pergunta": "O que é um visicooler?",
+"resposta": "É um equipamento refrigerado utilizado para exposição e conservação de bebidas."
+},
+{
+"id": "FAQ-014",
+"pergunta": "Como falar com um representante comercial?",
+"resposta": "O contato pode ser realizado pelos canais oficiais de atendimento da empresa."
+},
+{
+"id": "FAQ-015",
+"pergunta": "Existe suporte pós-venda?",
+"resposta": "Sim. O suporte auxilia em dúvidas, acompanhamento e situações relacionadas aos pedidos."
+}
+]
+}
