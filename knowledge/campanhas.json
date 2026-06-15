@@ -1,0 +1,69 @@
+{
+  "projeto": "ComFYS",
+  "versao": "1.0",
+  "tipo_conhecimento": "campanhas",
+  "fonte": "cenario_mvp",
+  "observacao": "Campanhas fictícias utilizadas para demonstração do MVP.",
+  "campanhas": [
+    {
+      "id": "CAMP-001",
+      "nome": "Operação Esquadrão Ambulante",
+      "objetivo": "Reposição rápida durante eventos de grande fluxo."
+    },
+    {
+      "id": "CAMP-002",
+      "nome": "Abastecimento Ágil Segunda Milha",
+      "objetivo": "Reduzir risco de ruptura em pontos de venda."
+    },
+    {
+      "id": "CAMP-003",
+      "nome": "Combo Turbo Gelo e Trincando",
+      "objetivo": "Aumentar disponibilidade de bebidas geladas."
+    },
+    {
+      "id": "CAMP-004",
+      "nome": "Estoque Programado e Risco Zero",
+      "objetivo": "Planejar abastecimento para eventos sazonais."
+    },
+    {
+      "id": "CAMP-005",
+      "nome": "Circuito Mixologia e Esquenta Jovem",
+      "objetivo": "Estimular experimentação e consumo entre público jovem."
+    },
+    {
+      "id": "CAMP-006",
+      "nome": "Circuito Tradição e Harmonização",
+      "objetivo": "Aumentar relevância em eventos culturais."
+    },
+    {
+      "id": "CAMP-007",
+      "nome": "Parceria Giro Junino",
+      "objetivo": "Apoiar operações durante festas juninas."
+    },
+    {
+      "id": "CAMP-008",
+      "nome": "Crédito Conectado de Temporada",
+      "objetivo": "Facilitar aquisição de estoque em períodos de alta demanda."
+    },
+    {
+      "id": "CAMP-009",
+      "nome": "Suporte Força Total PDV",
+      "objetivo": "Fortalecer atendimento e execução no ponto de venda."
+    },
+    {
+      "id": "CAMP-010",
+      "nome": "Giro Certo",
+      "objetivo": "Melhorar previsibilidade de vendas e reposição."
+    },
+    {
+      "id": "CAMP-011",
+      "nome": "Parceiro Premium",
+      "objetivo": "Fortalecer relacionamento com clientes estratégicos."
+    },
+    {
+      "id": "CAMP-012",
+      "nome": "Espaço Inteligente",
+      "objetivo": "Otimizar exposição e armazenamento de produtos."
+    }
+  ]
+}
