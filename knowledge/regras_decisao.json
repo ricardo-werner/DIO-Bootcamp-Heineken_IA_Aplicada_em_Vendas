@@ -1,0 +1,41 @@
+{
+  "projeto": "ComFYS",
+  "versao": "1.0",
+  "tipo_conhecimento": "regras_decisao",
+  "fonte": "cenario_mvp",
+  "observacao": "Motor simplificado de decisão para demonstração do MVP.",
+  "configuracao": {
+    "prioridade": "evento",
+    "campanhas_por_resposta": 1,
+    "usar_fluxo_normal_sem_evento": true
+  },
+  "regras": [
+    {
+      "evento": "Carnaval",
+      "campanha": "Operação Esquadrão Ambulante"
+    },
+    {
+      "evento": "São João",
+      "campanha": "Parceria Giro Junino"
+    },
+    {
+      "evento": "Círio de Nazaré",
+      "campanha": "Combo Turbo Gelo e Trincando"
+    },
+    {
+      "evento": "Oktoberfest",
+      "campanha": "Circuito Tradição e Harmonização"
+    },
+    {
+      "evento": "Festival de Verão",
+      "campanha": "Estoque Programado e Risco Zero"
+    },
+    {
+      "evento": "Festival Regional",
+      "campanha": "Giro Certo"
+    }
+  ],
+  "fluxo_normal": {
+    "campanha_padrao": "Parceiro Premium"
+  }
+}
