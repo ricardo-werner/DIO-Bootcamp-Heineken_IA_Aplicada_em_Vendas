@@ -1,0 +1,479 @@
+{
+  "versao": "1.0",
+  "eventos": [
+    {
+      "id": "carnaval_sp",
+      "nome": "Carnaval de Rua de São Paulo / The Town",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "mes_estimado": 2,
+      "coeficiente_sazonal_base": 0.5,
+      "tipo_impacto": "micro_localizado",
+      "regras_geograficas": {
+        "raio_km_metro_brt": 2.0,
+        "ceps_epicentro": [
+          "010",
+          "011",
+          "012",
+          "013",
+          "014",
+          "015",
+          "040",
+          "041",
+          "042",
+          "045",
+          "047",
+          "054"
+        ]
+      },
+      "trava_mix_latas": false,
+      "nivel_prioridade": "alta",
+      "janela_alerta_dias": 12,
+      "publico_principal": "consumo urbano rápido",
+      "produto_sugerido": "refrigerante em lata",
+      "observacao_comercial": "Evento de grande fluxo em ruas e rotas oficiais; priorizar comércios próximos ao epicentro e áreas de deslocamento."
+    },
+    {
+      "id": "carnaval_rj",
+      "nome": "Carnaval de Rua do Rio / Rock in Rio",
+      "cidade": "Rio de Janeiro",
+      "uf": "RJ",
+      "mes_estimado": 2,
+      "coeficiente_sazonal_base": 0.5,
+      "tipo_impacto": "micro_localizado",
+      "regras_geograficas": {
+        "raio_km_metro_brt": 2.0,
+        "ceps_epicentro": [
+          "200",
+          "202",
+          "210",
+          "220",
+          "222",
+          "224",
+          "226",
+          "227",
+          "230"
+        ]
+      },
+      "trava_mix_latas": false,
+      "nivel_prioridade": "alta",
+      "janela_alerta_dias": 12,
+      "publico_principal": "turistas e consumo de rua",
+      "produto_sugerido": "refrigerante em lata",
+      "observacao_comercial": "Movimento intenso em zonas com circulação a pé e consumo imediato; reforçar exposição e estoque gelado."
+    },
+    {
+      "id": "carnaval_ssa",
+      "nome": "Carnaval de Salvador",
+      "cidade": "Salvador",
+      "uf": "BA",
+      "mes_estimado": 2,
+      "coeficiente_sazonal_base": 0.6,
+      "tipo_impacto": "toda_cidade",
+      "regras_geograficas": {
+        "ceps_epicentro": [
+          "400",
+          "401",
+          "402",
+          "403",
+          "404",
+          "411",
+          "412",
+          "413",
+          "416",
+          "417",
+          "418"
+        ]
+      },
+      "trava_mix_latas": false,
+      "nivel_prioridade": "muito alta",
+      "janela_alerta_dias": 12,
+      "publico_principal": "público de rua e turistas",
+      "produto_sugerido": "refrigerante em lata",
+      "observacao_comercial": "Impacto amplo em toda a cidade; bom para estratégias de reforço geral de estoque e visibilidade."
+    },
+    {
+      "id": "carnaval_bh",
+      "nome": "Carnaval de Rua de BH",
+      "cidade": "Belo Horizonte",
+      "uf": "MG",
+      "mes_estimado": 2,
+      "coeficiente_sazonal_base": 0.4,
+      "tipo_impacto": "micro_localizado",
+      "regras_geograficas": {
+        "raio_km_metro_brt": 2.0,
+        "ceps_epicentro": [
+          "301",
+          "302",
+          "303",
+          "304",
+          "305",
+          "310",
+          "311",
+          "312",
+          "313"
+        ]
+      },
+      "trava_mix_latas": false,
+      "nivel_prioridade": "alta",
+      "janela_alerta_dias": 12,
+      "publico_principal": "público jovem urbano",
+      "produto_sugerido": "refrigerante em lata",
+      "observacao_comercial": "Forte concentração em rotas de blocos e entorno central; boas oportunidades em mercadinhos e conveniências."
+    },
+    {
+      "id": "carnaval_rec",
+      "nome": "Carnaval de Recife e Olinda",
+      "cidade": "Recife",
+      "uf": "PE",
+      "mes_estimado": 2,
+      "coeficiente_sazonal_base": 0.55,
+      "tipo_impacto": "micro_localizado",
+      "regras_geograficas": {
+        "ceps_epicentro": [
+          "500",
+          "501",
+          "506",
+          "507",
+          "510",
+          "511",
+          "520",
+          "521",
+          "530",
+          "531"
+        ]
+      },
+      "trava_mix_latas": false,
+      "nivel_prioridade": "muito alta",
+      "janela_alerta_dias": 12,
+      "publico_principal": "consumo de rua e rotas de bloco",
+      "produto_sugerido": "refrigerante em lata",
+      "observacao_comercial": "Aproveitar o fluxo intenso entre blocos e pontos de apoio; foco em refrescância e compra rápida."
+    },
+    {
+      "id": "sao_joao_slz",
+      "nome": "São João do Maranhão (Bumba Meu Boi)",
+      "cidade": "São Luís",
+      "uf": "MA",
+      "mes_estimado": 6,
+      "coeficiente_sazonal_base": 0.35,
+      "tipo_impacto": "toda_cidade",
+      "regras_geograficas": {
+        "ceps_epicentro": [
+          "6501",
+          "6502",
+          "6503",
+          "6504",
+          "6505",
+          "6506",
+          "6507",
+          "6508",
+          "6509"
+        ]
+      },
+      "trava_mix_latas": false,
+      "nivel_prioridade": "alta",
+      "janela_alerta_dias": 18,
+      "publico_principal": "consumo folclórico e urbano",
+      "produto_sugerido": "refrigerante em lata",
+      "observacao_comercial": "Arraiais e festas espalhadas pela cidade favorecem consumo de rua e abastecimento de pontos próximos."
+    },
+    {
+      "id": "na_praia_bsb",
+      "nome": "Festival Na Praia / Capital Moto Week",
+      "cidade": "Brasília",
+      "uf": "DF",
+      "mes_estimado": 7,
+      "coeficiente_sazonal_base": 0.25,
+      "tipo_impacto": "micro_localizado",
+      "regras_geograficas": {
+        "raio_km_metro_brt": 2.0,
+        "ceps_epicentro": [
+          "700",
+          "701",
+          "702",
+          "703",
+          "704",
+          "706",
+          "707",
+          "708",
+          "710",
+          "716"
+        ]
+      },
+      "trava_mix_latas": false,
+      "nivel_prioridade": "média",
+      "janela_alerta_dias": 12,
+      "publico_principal": "público de eventos e lazer",
+      "produto_sugerido": "refrigerante em lata",
+      "observacao_comercial": "Bom para consumo em áreas de evento e deslocamento; reforçar disponibilidade antes do pico."
+    },
+    {
+      "id": "cirio_nazare",
+      "nome": "Círio de Nazaré",
+      "cidade": "Belém",
+      "uf": "PA",
+      "mes_estimado": 10,
+      "coeficiente_sazonal_base": 0.4,
+      "tipo_impacto": "restrito_rota",
+      "regras_geograficas": {
+        "ceps_epicentro": [
+          "6601",
+          "6602",
+          "6603",
+          "6604",
+          "6605",
+          "6606",
+          "6608"
+        ]
+      },
+      "trava_mix_latas": true,
+      "nivel_prioridade": "alta",
+      "janela_alerta_dias": 18,
+      "publico_principal": "fluxo de procissões e rotas específicas",
+      "produto_sugerido": "refrigerante em lata",
+      "observacao_comercial": "Aumentos devem respeitar a rota das procissões; fora dela, o crescimento sugerido deve ser limitado."
+    },
+    {
+      "id": "bananada_gyn",
+      "nome": "Festival Bananada / Villa Mix",
+      "cidade": "Goiânia",
+      "uf": "GO",
+      "mes_estimado": 8,
+      "coeficiente_sazonal_base": 0.25,
+      "tipo_impacto": "micro_localizado",
+      "regras_geograficas": {
+        "ceps_epicentro": [
+          "740",
+          "741",
+          "742",
+          "743",
+          "745",
+          "746",
+          "748"
+        ]
+      },
+      "trava_mix_latas": false,
+      "nivel_prioridade": "média",
+      "janela_alerta_dias": 12,
+      "publico_principal": "público jovem e esquenta",
+      "produto_sugerido": "refrigerante em lata",
+      "observacao_comercial": "Eventos atraem consumo pré-show em conveniências, distribuidoras e pequenos comércios do entorno."
+    },
+    {
+      "id": "semana_farroupilha_poa",
+      "nome": "Semana Farroupilha",
+      "cidade": "Porto Alegre",
+      "uf": "RS",
+      "mes_estimado": 9,
+      "coeficiente_sazonal_base": 0.35,
+      "tipo_impacto": "toda_cidade",
+      "regras_geograficas": {
+        "ceps_epicentro": [
+          "900",
+          "901",
+          "902",
+          "904",
+          "905",
+          "906",
+          "908",
+          "910",
+          "911",
+          "912",
+          "913",
+          "914",
+          "915",
+          "917",
+          "919"
+        ]
+      },
+      "trava_mix_latas": false,
+      "nivel_prioridade": "alta",
+      "janela_alerta_dias": 18,
+      "publico_principal": "consumo em eventos e churrascos",
+      "produto_sugerido": "refrigerante em lata",
+      "observacao_comercial": "Impacto amplo, com bom uso em pontos de alimentação, bares e comércio de apoio a eventos."
+    },
+    {
+      "id": "verao_floripa",
+      "nome": "Temporada de Verão e Carnaval de Rua",
+      "cidade": "Florianópolis",
+      "uf": "SC",
+      "mes_estimado": 1,
+      "coeficiente_sazonal_base": 0.45,
+      "tipo_impacto": "toda_cidade",
+      "regras_geograficas": {
+        "ceps_epicentro": [
+          "8801",
+          "8802",
+          "8803",
+          "8804",
+          "8805",
+          "8806",
+          "8807",
+          "8808",
+          "8809"
+        ]
+      },
+      "trava_mix_latas": false,
+      "nivel_prioridade": "alta",
+      "janela_alerta_dias": 12,
+      "publico_principal": "turistas e consumo de verão",
+      "produto_sugerido": "refrigerante em lata",
+      "observacao_comercial": "Temporada forte de calor e turismo; ideal para reforço de latas e exposição em pontos de alto giro."
+    },
+    {
+      "id": "oktoberfest_bnu",
+      "nome": "Oktoberfest Blumenau",
+      "cidade": "Blumenau",
+      "uf": "SC",
+      "mes_estimado": 10,
+      "coeficiente_sazonal_base": 0.35,
+      "tipo_impacto": "raio_regional",
+      "regras_geograficas": {
+        "raio_km_regioes_vizinhas": 25.0,
+        "ceps_epicentro": [
+          "8901",
+          "8902",
+          "8903",
+          "8904",
+          "8905",
+          "8906",
+          "8907",
+          "8908",
+          "8911",
+          "8912",
+          "8913"
+        ]
+      },
+      "trava_mix_latas": false,
+      "nivel_prioridade": "alta",
+      "janela_alerta_dias": 18,
+      "publico_principal": "turistas e cidades vizinhas",
+      "produto_sugerido": "refrigerante em lata",
+      "observacao_comercial": "O impacto extrapola a cidade; considerar hotéis, comércios do entorno e regiões vizinhas."
+    },
+    {
+      "id": "festival_curitiba",
+      "nome": "Festival de Curitiba",
+      "cidade": "Curitiba",
+      "uf": "PR",
+      "mes_estimado": 3,
+      "coeficiente_sazonal_base": 0.2,
+      "tipo_impacto": "micro_localizado",
+      "regras_geograficas": {
+        "raio_km_metro_brt": 2.0,
+        "ceps_epicentro": [
+          "800",
+          "801",
+          "802",
+          "803",
+          "804",
+          "805",
+          "806",
+          "807",
+          "810",
+          "820",
+          "825"
+        ]
+      },
+      "trava_mix_latas": false,
+      "nivel_prioridade": "média",
+      "janela_alerta_dias": 12,
+      "publico_principal": "consumo urbano e cultural",
+      "produto_sugerido": "refrigerante em lata",
+      "observacao_comercial": "Boa oportunidade em bares, lanchonetes e pontos de apoio próximos aos polos culturais."
+    },
+    {
+      "id": "expogrande_cgr",
+      "nome": "Expogrande",
+      "cidade": "Campo Grande",
+      "uf": "MS",
+      "mes_estimado": 4,
+      "coeficiente_sazonal_base": 0.25,
+      "tipo_impacto": "micro_localizado",
+      "regras_geograficas": {
+        "raio_km_metro_brt": 2.0,
+        "ceps_epicentro": [
+          "7900",
+          "7901",
+          "7902",
+          "7903",
+          "7904",
+          "7905",
+          "7906",
+          "7907",
+          "7908",
+          "7909",
+          "7910",
+          "7911"
+        ]
+      },
+      "trava_mix_latas": false,
+      "nivel_prioridade": "média",
+      "janela_alerta_dias": 12,
+      "publico_principal": "público jovem e agroeventos",
+      "produto_sugerido": "refrigerante em lata",
+      "observacao_comercial": "Evento forte para conveniências e comércio do entorno; bom para ações de esquenta."
+    },
+    {
+      "id": "carnaval_cgb",
+      "nome": "Carnaval de Rua de Cuiabá / Festival de Chapada",
+      "cidade": "Cuiabá",
+      "uf": "MT",
+      "mes_estimado": 2,
+      "coeficiente_sazonal_base": 0.35,
+      "tipo_impacto": "toda_cidade",
+      "regras_geograficas": {
+        "ceps_epicentro": [
+          "7800",
+          "7801",
+          "7802",
+          "7803",
+          "7804",
+          "7805",
+          "7806",
+          "7807",
+          "7808",
+          "7809"
+        ]
+      },
+      "trava_mix_latas": false,
+      "nivel_prioridade": "alta",
+      "janela_alerta_dias": 12,
+      "publico_principal": "consumo de calor e rua",
+      "produto_sugerido": "refrigerante em lata",
+      "observacao_comercial": "Cidade de alto calor e forte aderência a bebidas geladas; impacto amplo no varejo local."
+    },
+    {
+      "id": "boi_manaus",
+      "nome": "Boi Manaus / Hub Parintins",
+      "cidade": "Manaus",
+      "uf": "AM",
+      "mes_estimado": 10,
+      "coeficiente_sazonal_base": 0.45,
+      "tipo_impacto": "toda_cidade",
+      "regras_geograficas": {
+        "raio_km_metro_brt": null,
+        "ceps_epicentro": [
+          "6900",
+          "6901",
+          "6902",
+          "6903",
+          "6904",
+          "6905",
+          "6906",
+          "6907",
+          "6908",
+          "6909"
+        ]
+      },
+      "trava_mix_latas": false,
+      "nivel_prioridade": "alta",
+      "janela_alerta_dias": 18,
+      "publico_principal": "fluxo urbano e calor intenso",
+      "produto_sugerido": "refrigerante em lata",
+      "observacao_comercial": "Alta sensibilidade ao calor e ao fluxo sazonal; priorizar abastecimento antecipado."
+    }
+  ]
+}
