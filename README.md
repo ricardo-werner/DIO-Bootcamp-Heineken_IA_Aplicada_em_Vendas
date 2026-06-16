@@ -128,28 +128,60 @@ Exemplos:
 
 ### regras_decisao.json
 
-Responsável por definir a lógica de cruzamento entre:
+### 🌳 Arquitetura da Árvore de Decisão
 
-- Evento
-- Objeção
-- Campanha
-- Resposta
-
-Fluxo principal:
+O mecanismo de recomendação do ComFYS utiliza uma árvore de decisão baseada em contexto, composta por quatro etapas sequenciais de filtragem.
 
 ```text
-Cidade
- ↓
-Existe Evento?
- ↓
-SIM → Evento → Objeção → Campanha
- ↓
-Resposta
+[Input do Usuário]
+        │
+        ▼
+┌─────────────────────────────┐
+│ 1. Identificação Geográfica │
+└─────────────────────────────┘
+Captura a cidade ou região do ponto de venda.
 
-NÃO → Objeção → Campanha Padrão
- ↓
-Resposta
+        │
+        ▼
+┌─────────────────────────────┐
+│ 2. Identificação Temporal   │
+└─────────────────────────────┘
+Verifica a existência de eventos regionais ativos.
+
+        │
+        ├──► Sem evento:
+        │      Fluxo comercial padrão
+        │
+        └──► Com evento:
+               Ativa o modo sazonal
+
+        │
+        ▼
+┌─────────────────────────────┐
+│ 3. Classificação da Intenção│
+└─────────────────────────────┘
+Identifica a objeção ou necessidade apresentada pelo lojista.
+
+        │
+        ▼
+┌─────────────────────────────┐
+│ 4. Cruzamento de Regras     │
+└─────────────────────────────┘
+Combina:
+
+• Evento Regional
+• Objeção Identificada
+• Contra-objeção
+• Campanha Recomendada
+• FAQ de Apoio
+
+        │
+        ▼
+[Resposta Contextualizada]
 ```
+
+Essa abordagem permite gerar recomendações alinhadas ao contexto geográfico, temporal e comercial de cada situação apresentada.
+
 
 ---
 
