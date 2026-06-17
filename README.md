@@ -234,11 +234,16 @@ Para validação do MVP foram criados cenários simulados.
 ## 📁 Estrutura do Projeto
 
 ```text
+## 📁 Estrutura do Projeto
+
+```text
 BOOTCAMP_HEINEKEN-FYS/
 
 ├── assets/
 │   └── to_readme/
-│       └── acessibilidade_isa.png
+│       ├── acessibilidade_isa.png
+│       ├── FYS_Florest.jpeg
+│       └── FYS_teste.jpeg
 │
 ├── docs/
 │   ├── Acessibilidade_e_Inclusao_v1.0.md
@@ -265,6 +270,7 @@ BOOTCAMP_HEINEKEN-FYS/
 │
 └── README.md
 ```
+
 
 ---
 
