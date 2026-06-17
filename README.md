@@ -2,17 +2,23 @@
 
 > Assistente comercial baseado em Inteligência Artificial para apoio à tomada de decisão de pequenos e médios varejistas parceiros da FYS.
 
-
-<table align="center"></table>
-  <tr>
-    <td align="center">
-      <img src="./assets/to_readme/FYS_teste.jpeg" width="450px" alt="Imagem original dos refrigerantes da FYS">
-    </td>
-    <td align="center">
-      <img src="./assets/to_readme/FYS_Florest.jpeg" width="450px" alt="Imagem dos refrigerantes da FYS em uma floresta, simbolizando a sustentabilidade e o compromisso ambiental da empresa">
-    </td>
-  </tr>
-
+<table align="center">
+        <tbody>
+                <tr>
+                        <td align="center" width="50%">
+                                <figure>
+                                        <img src="./assets/to_readme/FYS_teste.jpeg" width="400" alt="Imagem original dos refrigerantes da FYS">
+                                        <figcaption><strong>Versão base do projeto</strong></figcaption>
+                                </figure>
+                        </td>
+                        <td align="center" width="50%">
+                                <figure>
+                                        <img src="./assets/to_readme/FYS_Florest.jpeg" width="400" alt="Imagem dos refrigerantes da FYS em uma floresta, simbolizando a sustentabilidade e o compromisso ambiental da empresa">
+                                        <figcaption><strong>Versão com conceito sustentável</strong></figcaption>
+                                </figure>
+                        </td>
+                </tr>
+        </tbody>
 </table>
 
 ---
@@ -194,7 +200,6 @@ Combina:
 ```
 
 Essa abordagem permite gerar recomendações alinhadas ao contexto geográfico, temporal e comercial de cada situação apresentada.
-
 
 ---
 
