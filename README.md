@@ -2,6 +2,19 @@
 
 > Assistente comercial baseado em Inteligência Artificial para apoio à tomada de decisão de pequenos e médios varejistas parceiros da FYS.
 
+
+<table align="center"></table>
+  <tr>
+    <td align="center">
+      <img src="./assets/to_readme/FYS_teste.jpeg" width="450px" alt="Imagem original dos refrigerantes da FYS">
+    </td>
+    <td align="center">
+      <img src="./assets/to_readme/FYS_Florest.jpeg" width="450px" alt="Imagem dos refrigerantes da FYS em uma floresta, simbolizando a sustentabilidade e o compromisso ambiental da empresa">
+    </td>
+  </tr>
+
+</table>
+
 ---
 
 ## 📖 Sobre o Projeto
